@@ -1,0 +1,60 @@
+body {
+    font-family: 'poppins', sans-serif;
+  }
+
+  .plans-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+  }
+
+  .price-container{
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .basic-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .pricing-month {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+
+  .feature-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .feature-list li {
+    margin-bottom: 20px;
+  }
+
+  .sign-button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+
+  @media (max-width: 1250px) {
+    .plans-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
